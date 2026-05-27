@@ -1,0 +1,10 @@
+uuid: fb94ebaf-c3ca-4946-881c-e886bd370d05
+langcode: ja
+status: true
+dependencies: {  }
+id: latlng
+label: Latlng
+icon_uuid: null
+icon_default: null
+description: 'Migrated from field_collection field_latlng'
+behavior_plugins: {  }

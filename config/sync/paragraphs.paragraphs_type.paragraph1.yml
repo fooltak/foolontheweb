@@ -1,0 +1,10 @@
+uuid: a910cbca-7c4d-49ae-a301-7eecf2059852
+langcode: ja
+status: true
+dependencies: {  }
+id: paragraph1
+label: 文節セット
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

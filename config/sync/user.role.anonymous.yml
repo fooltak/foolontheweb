@@ -1,0 +1,18 @@
+uuid: 35056fb5-835a-4091-a604-ecf90e4f65b6
+langcode: ja
+status: true
+dependencies:
+  module:
+    - comment
+    - media
+    - system
+_core:
+  default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
+id: anonymous
+label: 'anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'view media'

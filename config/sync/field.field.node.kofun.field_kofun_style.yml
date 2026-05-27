@@ -1,0 +1,29 @@
+uuid: f1f063ae-3bde-4d77-9599-c9a97ddc8b2e
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kofun_style
+    - node.type.kofun
+    - taxonomy.vocabulary.kofun_style
+id: node.kofun.field_kofun_style
+field_name: field_kofun_style
+entity_type: node
+bundle: kofun
+label: 古墳形状
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      kofun_style: kofun_style
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

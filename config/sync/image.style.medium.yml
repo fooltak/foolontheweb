@@ -1,0 +1,17 @@
+uuid: 86500f8f-b457-451b-9337-e5e6edd93578
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Y9NmnZHQq20ASSyTNA6JnwtWrJJiSajOehGDtmUFdM0
+name: medium
+label: medium
+effects:
+  f2b50f99-9a6b-4167-838e-5c5fc707bc88:
+    uuid: f2b50f99-9a6b-4167-838e-5c5fc707bc88
+    id: image_scale
+    weight: 0
+    data:
+      width: 470
+      height: 470
+      upscale: true

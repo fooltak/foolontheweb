@@ -1,0 +1,51 @@
+uuid: 365b967a-3a50-45df-9113-4b30040d768d
+langcode: ja
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.blog2.body
+    - field.field.node.blog2.field_eyecatch
+    - field.field.node.blog2.field_image2
+    - field.field.node.blog2.field_images
+    - field.field.node.blog2.field_metatag
+    - field.field.node.blog2.field_paragraph
+    - field.field.node.blog2.field_tags
+    - field.field.node.blog2.field_vlog
+    - field.field.node.blog2.taxonomy_vocabulary_1
+    - node.type.blog2
+  module:
+    - image
+    - user
+id: node.blog2.search_index
+targetEntityType: node
+bundle: blog2
+mode: search_index
+content:
+  field_images:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_eyecatch: true
+  field_image2: true
+  field_metatag: true
+  field_paragraph: true
+  field_tags: true
+  field_vlog: true
+  langcode: true
+  search_api_excerpt: true
+  taxonomy_vocabulary_1: true

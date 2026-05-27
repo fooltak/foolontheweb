@@ -1,0 +1,22 @@
+uuid: abefa64f-62ab-4946-bac8-7d316e1de6b5
+langcode: ja
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_story
+    - field.storage.comment.comment_body
+  module:
+    - text
+id: comment.comment_node_story.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: comment_node_story
+label: コメント
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

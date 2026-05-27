@@ -1,0 +1,53 @@
+uuid: f8a111ba-9816-4abc-b1c6-1318efc1f15e
+langcode: ja
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_page.default
+    - field.field.node.page.body
+    - field.field.node.page.comment_node_page
+    - field.field.node.page.field_images
+    - field.field.node.page.field_pdf
+    - node.type.page
+  module:
+    - comment
+    - file
+    - text
+    - user
+_core:
+  default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  comment_node_page:
+    type: comment_default
+    label: hidden
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_pdf:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    weight: 101
+    region: content
+hidden:
+  field_images: true
+  langcode: true

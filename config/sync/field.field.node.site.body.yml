@@ -1,0 +1,24 @@
+uuid: 9298e8ce-f6d1-46e9-b99c-94595f70b4dc
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.site
+  module:
+    - text
+id: node.site.body
+field_name: body
+entity_type: node
+bundle: site
+label: 本文
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

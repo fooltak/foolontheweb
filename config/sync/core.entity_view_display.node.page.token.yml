@@ -1,0 +1,40 @@
+uuid: 28a70381-a072-48df-be26-22c17bfe0012
+langcode: ja
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.token
+    - field.field.node.page.body
+    - field.field.node.page.comment_node_page
+    - field.field.node.page.field_images
+    - field.field.node.page.field_pdf
+    - node.type.page
+  module:
+    - image
+    - user
+id: node.page.token
+targetEntityType: node
+bundle: page
+mode: token
+content:
+  field_images:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  comment_node_page: true
+  field_pdf: true
+  langcode: true

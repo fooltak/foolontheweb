@@ -1,0 +1,17 @@
+uuid: c0c93902-df27-4eba-a1cb-71dd9d851a81
+langcode: ja
+status: false
+dependencies:
+  module:
+    - node
+  enforced:
+    module:
+      - ds_extras
+      - node
+_core:
+  default_config_hash: 9KZ3WmwficPZQW4KRu0DdKX2V9A1Xiz5LFFm2NHg4_A
+id: node.revision
+label: リビジョン
+description: ''
+targetEntityType: node
+cache: true

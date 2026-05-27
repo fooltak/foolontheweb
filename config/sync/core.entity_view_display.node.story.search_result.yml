@@ -1,0 +1,46 @@
+uuid: 118a7b0b-9c96-468d-ac87-d9e805d19ddd
+langcode: ja
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_result
+    - field.field.node.story.body
+    - field.field.node.story.comment_node_story
+    - field.field.node.story.field_actual_postdate
+    - field.field.node.story.field_images
+    - field.field.node.story.field_metatag
+    - field.field.node.story.field_pdf
+    - field.field.node.story.taxonomy_vocabulary_1
+    - node.type.story
+  module:
+    - image
+    - user
+id: node.story.search_result
+targetEntityType: node
+bundle: story
+mode: search_result
+content:
+  field_images:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  comment_node_story: true
+  field_actual_postdate: true
+  field_metatag: true
+  field_pdf: true
+  langcode: true
+  taxonomy_vocabulary_1: true

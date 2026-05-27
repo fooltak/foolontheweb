@@ -1,0 +1,18 @@
+uuid: 978ef3e6-1baf-4ecc-a138-35bdc03591f1
+langcode: ja
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main-menu
+    parent: 'main-menu:0:'
+name: story
+type: story
+description: '<em>ストーリー</em> （形の上では <em>ページ</em> と同様）は、「お知らせ」や「ニュース」のようなコンテンツの表示・作成に理想的です。 プレスリリース、サイトの告知、略式のブログのようなエントリは、すべて <em>ストーリー</em> で作成できます。 デフォルトで <em>ストーリー</em> エントリは、自動的にフロントページに掲載され、コメントの投稿を許可します。'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

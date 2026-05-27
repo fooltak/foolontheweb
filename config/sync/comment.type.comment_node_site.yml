@@ -1,0 +1,8 @@
+uuid: 36c6dc81-2fa9-4988-9ce3-b380775142f1
+langcode: ja
+status: true
+dependencies: {  }
+id: comment_node_site
+label: 'サイト comment'
+target_entity_type_id: node
+description: null

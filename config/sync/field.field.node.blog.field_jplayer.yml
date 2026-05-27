@@ -1,0 +1,27 @@
+uuid: 26168986-7a0e-4f3b-8543-a2f0d9ce2386
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_jplayer
+    - node.type.blog
+  module:
+    - file
+id: node.blog.field_jplayer
+field_name: field_jplayer
+entity_type: node
+bundle: blog
+label: jplayer
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: ''
+  file_extensions: mp3
+  max_filesize: ''
+  description_field: false
+field_type: file

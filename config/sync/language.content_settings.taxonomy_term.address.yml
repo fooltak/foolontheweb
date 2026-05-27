@@ -1,0 +1,11 @@
+uuid: d150e649-f9dc-4b16-baa8-a2deead9097f
+langcode: ja
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.address
+id: taxonomy_term.address
+target_entity_type_id: taxonomy_term
+target_bundle: address
+default_langcode: site_default
+language_alterable: false

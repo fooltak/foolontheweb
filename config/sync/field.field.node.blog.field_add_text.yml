@@ -1,0 +1,25 @@
+uuid: 6805bb12-98fa-4711-b88f-6031711c044b
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_add_text
+    - node.type.blog
+  module:
+    - text
+id: node.blog.field_add_text
+field_name: field_add_text
+entity_type: node
+bundle: blog
+label: 追記
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+    _error_element: 'default_value_widget][field_add_text][0][value'
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

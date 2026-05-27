@@ -1,0 +1,21 @@
+uuid: 2a57332c-148c-4284-8d6f-6fa2e4cae574
+langcode: und
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: node.field_latlng
+field_name: field_latlng
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

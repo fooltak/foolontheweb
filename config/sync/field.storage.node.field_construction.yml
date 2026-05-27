@@ -1,0 +1,20 @@
+uuid: f54e9086-f52e-47c5-8216-c57f436eaa67
+langcode: ja
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_construction
+field_name: field_construction
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

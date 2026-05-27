@@ -1,0 +1,31 @@
+uuid: 430260d5-c515-4fff-a9f1-79557b0c4f6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - fool10
+_core:
+  default_config_hash: ERtUwuUKdqiRLiXjBoV7gcIIZgt2IdqWBzqsqtm63w4
+id: fool10_main_menu
+theme: fool10
+region: navigation_collapsible
+weight: 10
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'And More…'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: /kofun

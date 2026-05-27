@@ -1,0 +1,29 @@
+uuid: b070c8b3-2397-412a-9458-9c9240df9f68
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.taxonomy_vocabulary_1
+    - node.type.blog2
+    - taxonomy.vocabulary.vocabulary_1
+id: node.blog2.taxonomy_vocabulary_1
+field_name: taxonomy_vocabulary_1
+entity_type: node
+bundle: blog2
+label: TAGS
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      vocabulary_1: vocabulary_1
+    sort:
+      field: _none
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

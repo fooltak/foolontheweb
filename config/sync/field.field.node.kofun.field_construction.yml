@@ -1,0 +1,29 @@
+uuid: 402e5333-e12e-489a-8412-17a3fcb2d029
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_construction
+    - node.type.kofun
+    - taxonomy.vocabulary.construction
+id: node.kofun.field_construction
+field_name: field_construction
+entity_type: node
+bundle: kofun
+label: 築造時期
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      construction: construction
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

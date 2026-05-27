@@ -1,0 +1,26 @@
+uuid: 89a98bcf-3c73-4980-87f1-7b29f31b02e8
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.page
+  module:
+    - text
+_core:
+  default_config_hash: KHu9I-pR4FnP79crRJ5gVD_1mKGSZcJsdIm9bn64iFg
+id: node.page.body
+field_name: body
+entity_type: node
+bundle: page
+label: 本文
+description: '<em>ページ</em> （形の上では <em>ストーリー</em> と同様）は、例えば「サイトについて」のような、めったに変更のない情報（静的ページ）を作成・表示するための簡単な方法です。 デフォルトで <em>ページ</em> エントリは、訪問者のコメントを許可せず、フロントページに掲載されないようになっています。'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

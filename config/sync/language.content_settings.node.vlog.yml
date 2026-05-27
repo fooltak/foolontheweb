@@ -1,0 +1,11 @@
+uuid: 599695ef-3c34-4774-91b8-6fadcdb788e2
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.vlog
+id: node.vlog
+target_entity_type_id: node
+target_bundle: vlog
+default_langcode: site_default
+language_alterable: false

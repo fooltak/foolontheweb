@@ -1,0 +1,43 @@
+uuid: 49a60a4d-0cfa-48e1-91d6-168041621c55
+langcode: ja
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.story.body
+    - field.field.node.story.comment_node_story
+    - field.field.node.story.field_actual_postdate
+    - field.field.node.story.field_images
+    - field.field.node.story.field_metatag
+    - field.field.node.story.field_pdf
+    - field.field.node.story.taxonomy_vocabulary_1
+    - node.type.story
+  module:
+    - text
+    - user
+id: node.story.teaser
+targetEntityType: node
+bundle: story
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  comment_node_story: true
+  field_actual_postdate: true
+  field_images: true
+  field_metatag: true
+  field_pdf: true
+  langcode: true
+  taxonomy_vocabulary_1: true

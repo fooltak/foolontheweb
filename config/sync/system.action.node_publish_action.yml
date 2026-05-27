@@ -1,0 +1,13 @@
+uuid: dfe93eaf-c3a3-41fe-974f-fdb04e88cfd7
+langcode: ja
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 2B9uF8NL5gutNKSdPRAhhAsDWFZZG1PJOBmx0aBGd_0
+id: node_publish_action
+label: 投稿を掲載する
+type: node
+plugin: 'entity:publish_action:node'
+configuration: {  }

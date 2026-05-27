@@ -1,0 +1,27 @@
+uuid: 88d037f1-10ed-4d03-a1cf-402cf37a20f9
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pdf
+    - node.type.story
+  module:
+    - file
+id: node.story.field_pdf
+field_name: field_pdf
+entity_type: node
+bundle: story
+label: pdf
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: ''
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+field_type: file

@@ -1,0 +1,33 @@
+uuid: a7c1db6a-0644-4edc-bf07-874781e0f931
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.comment_node_image_title
+    - node.type.image_title
+  module:
+    - comment
+id: node.image_title.comment_node_image_title
+field_name: comment_node_image_title
+entity_type: node
+bundle: image_title
+label: Comments
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    status: 2
+    cid: 0
+    last_comment_timestamp: 0
+    last_comment_name: null
+    last_comment_uid: 0
+    comment_count: 0
+default_value_callback: ''
+settings:
+  default_mode: 1
+  per_page: 50
+  anonymous: 0
+  form_location: true
+  preview: 1
+field_type: comment

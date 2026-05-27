@@ -1,0 +1,9 @@
+uuid: b86ca595-f44b-4f60-8220-fbec7dcc734e
+langcode: ja
+status: true
+dependencies: {  }
+name: 'image category'
+vid: image_category
+description: null
+weight: 0
+new_revision: false

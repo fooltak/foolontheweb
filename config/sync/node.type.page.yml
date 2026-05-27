@@ -1,0 +1,13 @@
+uuid: 64af974e-d3e8-44bc-b309-da010a2a058a
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: KuyA4NHPXcmKAjRtwa0vQc2ZcyrUJy6IlS2TAyMNRbc
+name: ページ
+type: page
+description: '<em>ページ</em> （形の上では <em>ストーリー</em> と同様）は、例えば「サイトについて」のような、めったに変更のない情報（静的ページ）を作成・表示するための簡単な方法です。 デフォルトで <em>ページ</em> エントリは、訪問者のコメントを許可せず、フロントページに掲載されないようになっています。'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

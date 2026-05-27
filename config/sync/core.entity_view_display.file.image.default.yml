@@ -1,0 +1,18 @@
+uuid: ba4b9000-fbcd-4a60-8a87-2b9bb24e8637
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.field.file.image.field_file_image_alt_text
+    - field.field.file.image.field_file_image_title_text
+  module:
+    - file
+id: file.image.default
+targetEntityType: file
+bundle: image
+mode: default
+content: {  }
+hidden:
+  field_file_image_alt_text: true
+  field_file_image_title_text: true
+  langcode: true

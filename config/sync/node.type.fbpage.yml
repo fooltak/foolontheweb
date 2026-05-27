@@ -1,0 +1,11 @@
+uuid: 153b1771-43f4-4d37-b84d-cc3fbd862d02
+langcode: ja
+status: true
+dependencies: {  }
+name: FBpage
+type: fbpage
+description: null
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

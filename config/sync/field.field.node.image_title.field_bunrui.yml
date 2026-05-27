@@ -1,0 +1,29 @@
+uuid: 1da73782-c60c-4e3e-8c3f-cd5497d45488
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bunrui
+    - node.type.image_title
+    - taxonomy.vocabulary.classification
+id: node.image_title.field_bunrui
+field_name: field_bunrui
+entity_type: node
+bundle: image_title
+label: 分類
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      classification: classification
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

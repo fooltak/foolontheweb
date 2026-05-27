@@ -1,0 +1,24 @@
+uuid: b8f2c0b3-03ac-4bd6-bec9-af3f6e943fe7
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_youtube
+    - filter.format.2
+    - node.type.vlog
+  module:
+    - text
+id: node.vlog.field_youtube
+field_name: field_youtube
+entity_type: node
+bundle: vlog
+label: youtube
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - '2'
+field_type: text_long

@@ -1,0 +1,28 @@
+uuid: 1b084e1f-91ec-44ad-93f3-36fa47e282aa
+langcode: ja
+status: true
+dependencies:
+  config:
+    - filter.format.1
+    - filter.format.2
+  module:
+    - comment
+    - filter
+    - media
+    - node
+    - system
+_core:
+  default_config_hash: cFrlqjtkTfvY3RGccjJkPf1SGIfJ942IrxTLWAO4mgA
+id: authenticated
+label: 'authenticated user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'use text format 1'
+  - 'use text format 2'
+  - 'view media'
+  - 'view own unpublished content'

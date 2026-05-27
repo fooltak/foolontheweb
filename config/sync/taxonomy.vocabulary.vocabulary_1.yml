@@ -1,0 +1,9 @@
+uuid: baa5796a-6885-416c-8c84-596b45d63c95
+langcode: ja
+status: true
+dependencies: {  }
+name: TAGS
+vid: vocabulary_1
+description: null
+weight: 0
+new_revision: false

@@ -1,0 +1,18 @@
+uuid: 38390aab-e40b-4985-a1c9-2a40fcdf0ae2
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.story
+id: node.story.title
+field_name: title
+entity_type: node
+bundle: story
+label: タイトル
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

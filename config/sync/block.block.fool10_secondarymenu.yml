@@ -1,0 +1,29 @@
+uuid: 64716c5e-0245-4dda-bc9e-aa962425a9a0
+langcode: ja
+status: true
+dependencies:
+  config:
+    - system.menu.secondary-menu
+  module:
+    - system
+  theme:
+    - fool10
+id: fool10_secondarymenu
+theme: fool10
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'system_menu_block:secondary-menu'
+settings:
+  id: 'system_menu_block:secondary-menu'
+  label: 'Picture Book'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: /kofun

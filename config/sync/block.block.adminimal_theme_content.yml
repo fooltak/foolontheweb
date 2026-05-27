@@ -1,0 +1,22 @@
+uuid: 67c7a4a1-7fdb-4853-abff-e058c7fb5438
+langcode: ja
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - adminimal_theme
+_core:
+  default_config_hash: 80N66GdzEvwqi1m-_GZ-ulkk8AJG9beoXcZ4-pMVKjI
+id: adminimal_theme_content
+theme: adminimal_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: メインページコンテンツ
+  label_display: '0'
+  provider: system
+visibility: {  }

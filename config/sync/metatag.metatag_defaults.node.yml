@@ -1,0 +1,16 @@
+uuid: 39a6aeac-d0cc-4aa9-a26f-c5d3c36ede55
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rpwvgyEURXLz_JjgMCrkS1rUv-0k3L79BpO-ReN7fDI
+id: node
+label: コンテンツ
+tags:
+  canonical_url: '[node:url]'
+  description: '[node:summary]'
+  og_description: '[node:summary]'
+  og_title: '[node:title]'
+  og_type: blog
+  og_url: '[node:url]'
+  title: '[node:title] | [site:name]'

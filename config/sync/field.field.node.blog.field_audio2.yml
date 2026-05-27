@@ -1,0 +1,27 @@
+uuid: d06c7c6a-d1af-46e3-9556-ca6df084209a
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_audio2
+    - node.type.blog
+  module:
+    - file
+id: node.blog.field_audio2
+field_name: field_audio2
+entity_type: node
+bundle: blog
+label: audio2
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: ''
+  file_extensions: 'wav mp3'
+  max_filesize: ''
+  description_field: false
+field_type: file

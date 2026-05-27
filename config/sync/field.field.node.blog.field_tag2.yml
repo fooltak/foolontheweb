@@ -1,0 +1,26 @@
+uuid: b1d1745f-76d0-4706-850c-d41105789764
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tag2
+    - node.type.blog
+    - taxonomy.vocabulary.tag2
+id: node.blog.field_tag2
+field_name: field_tag2
+entity_type: node
+bundle: blog
+label: Tag2
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tag2: tag2
+    sort:
+      field: _none
+field_type: entity_reference

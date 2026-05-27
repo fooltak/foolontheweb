@@ -1,0 +1,18 @@
+uuid: 1fc3673f-72f3-47d1-b6c8-7161ac27232e
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.blog
+id: node.blog.title
+field_name: title
+entity_type: node
+bundle: blog
+label: タイトル
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

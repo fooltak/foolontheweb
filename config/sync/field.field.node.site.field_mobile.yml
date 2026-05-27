@@ -1,0 +1,23 @@
+uuid: 135430ce-f607-4253-8617-49ae16b8718a
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mobile
+    - node.type.site
+  module:
+    - options
+id: node.site.field_mobile
+field_name: field_mobile
+entity_type: node
+bundle: site
+label: モバイル対応
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: null
+default_value_callback: ''
+settings: {  }
+field_type: list_string

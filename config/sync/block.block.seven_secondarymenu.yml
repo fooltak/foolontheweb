@@ -1,0 +1,25 @@
+uuid: 8fbb8d2c-2929-461d-89c6-335a7da27481
+langcode: ja
+status: true
+dependencies:
+  config:
+    - system.menu.secondary-menu
+  module:
+    - system
+  theme:
+    - seven
+id: seven_secondarymenu
+theme: seven
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:secondary-menu'
+settings:
+  id: 'system_menu_block:secondary-menu'
+  label: 'Picture Book'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

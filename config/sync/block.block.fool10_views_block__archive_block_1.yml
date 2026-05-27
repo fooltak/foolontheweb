@@ -1,0 +1,29 @@
+uuid: 4b6ba5a2-42ce-4efc-af51-ad763acc3618
+langcode: ja
+status: true
+dependencies:
+  config:
+    - views.view.archive
+  module:
+    - system
+    - views
+  theme:
+    - fool10
+id: fool10_views_block__archive_block_1
+theme: fool10
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'views_block:archive-block_1'
+settings:
+  id: 'views_block:archive-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: /kofun

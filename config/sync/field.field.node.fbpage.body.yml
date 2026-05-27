@@ -1,0 +1,24 @@
+uuid: 808971a0-73a7-4ee2-afad-b1d68686dc81
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.fbpage
+  module:
+    - text
+id: node.fbpage.body
+field_name: body
+entity_type: node
+bundle: fbpage
+label: 本文
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

@@ -1,0 +1,12 @@
+uuid: d6e10c48-1269-4c06-82dd-52df019de9bb
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: グローバル
+tags:
+  canonical_url: '[current-page:url]'
+  fb_app_id: '189652574428485'
+  title: '[current-page:title] | [site:name]'

@@ -1,0 +1,9 @@
+uuid: 11b7e868-4310-4134-a5e8-305e54a9986d
+langcode: ja
+status: true
+dependencies: {  }
+name: Tag2
+vid: tag2
+description: null
+weight: 0
+new_revision: false

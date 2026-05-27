@@ -1,0 +1,130 @@
+uuid: cd45bf0d-8844-46f7-bc21-afb989a493f8
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.field.node.blog.body
+    - field.field.node.blog.comment_node_blog
+    - field.field.node.blog.field_add_text
+    - field.field.node.blog.field_audio
+    - field.field.node.blog.field_audio2
+    - field.field.node.blog.field_classification
+    - field.field.node.blog.field_image3
+    - field.field.node.blog.field_images
+    - field.field.node.blog.field_images2
+    - field.field.node.blog.field_jplayer
+    - field.field.node.blog.field_latlng
+    - field.field.node.blog.field_link
+    - field.field.node.blog.field_metatag
+    - field.field.node.blog.field_no_insert
+    - field.field.node.blog.field_paragraph
+    - field.field.node.blog.field_tag2
+    - field.field.node.blog.taxonomy_vocabulary_1
+    - node.type.blog
+  module:
+    - ds
+    - entity_reference_revisions
+    - image
+    - link
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_2col_stacked_fluid
+      library: ds/ds_2col_stacked_fluid
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        classes:
+          layout_class: {  }
+        wrappers:
+          header: div
+          left: div
+          right: div
+          footer: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        label: ''
+    regions:
+      header:
+        - node_post_date
+        - body
+        - taxonomy_vocabulary_1
+        - field_image3
+    fields:
+      node_post_date:
+        plugin_id: node_post_date
+        weight: 0
+        label: hidden
+        formatter: ds_post_date_medium
+id: node.blog.default
+targetEntityType: node
+bundle: blog
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: header
+  field_image3:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 3
+    region: header
+  field_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_paragraph:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: header
+  taxonomy_vocabulary_1:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: header
+hidden:
+  comment_node_blog: true
+  field_add_text: true
+  field_audio: true
+  field_audio2: true
+  field_classification: true
+  field_images: true
+  field_images2: true
+  field_jplayer: true
+  field_latlng: true
+  field_metatag: true
+  field_no_insert: true
+  field_tag2: true
+  flippy_pager: true
+  langcode: true
+  links: true

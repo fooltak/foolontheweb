@@ -1,0 +1,29 @@
+uuid: 9d3dfb24-c09c-4803-9062-f67d986733f1
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_address
+    - node.type.kofun
+    - taxonomy.vocabulary.address
+id: node.kofun.field_address
+field_name: field_address
+entity_type: node
+bundle: kofun
+label: address
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      address: address
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

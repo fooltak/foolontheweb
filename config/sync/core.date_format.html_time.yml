@@ -1,0 +1,10 @@
+uuid: 5be5a45f-5fb2-4220-a2b5-02588f0c5e72
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: M7yqicYkU36hRy5p9drAaGBBihhUD1OyujFrAaQ93ZE
+id: html_time
+label: 'HTML 時刻'
+locked: true
+pattern: 'H:i:s'

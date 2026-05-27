@@ -1,0 +1,9 @@
+uuid: 599cc455-bdb3-42e8-8b52-2d305e0d35bf
+langcode: ja
+status: true
+dependencies: {  }
+name: 'Image Term'
+vid: image_term
+description: null
+weight: 0
+new_revision: false

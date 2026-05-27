@@ -1,0 +1,47 @@
+uuid: 84e18aae-2c96-41ae-954b-48d7d64efbd5
+langcode: ja
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.mobile_tools
+    - field.field.node.site.body
+    - field.field.node.site.comment_node_site
+    - field.field.node.site.field_images
+    - field.field.node.site.field_link_url
+    - field.field.node.site.field_mobile
+    - field.field.node.site.taxonomy_vocabulary_1
+    - node.type.site
+  module:
+    - text
+    - user
+id: node.site.mobile_tools
+targetEntityType: node
+bundle: site
+mode: mobile_tools
+content:
+  field_link_url:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_mobile:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  comment_node_site: true
+  field_images: true
+  langcode: true
+  taxonomy_vocabulary_1: true

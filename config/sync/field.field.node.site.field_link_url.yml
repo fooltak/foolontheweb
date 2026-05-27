@@ -1,0 +1,22 @@
+uuid: fd1e17d8-7124-400f-9955-11087e0e8f89
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_url
+    - node.type.site
+id: node.site.field_link_url
+field_name: field_link_url
+entity_type: node
+bundle: site
+label: リンクURL
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+    _error_element: 'default_value_widget][field_link_url][0][value'
+default_value_callback: ''
+settings: {  }
+field_type: string

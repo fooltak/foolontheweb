@@ -1,0 +1,11 @@
+uuid: b36eeecc-3c3c-4f86-a58a-00c0a46889f9
+langcode: ja
+status: true
+dependencies:
+  module:
+    - node
+id: node.mobile
+label: mobile
+description: ''
+targetEntityType: node
+cache: true

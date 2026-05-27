@@ -1,0 +1,23 @@
+uuid: 279111ef-770b-4b58-ba96-f915a75dc698
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_classification
+    - node.type.blog
+  module:
+    - options
+id: node.blog.field_classification
+field_name: field_classification
+entity_type: node
+bundle: blog
+label: 分類
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: list_string

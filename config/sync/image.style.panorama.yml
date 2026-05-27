@@ -1,0 +1,15 @@
+uuid: 0daba0dd-89cd-4341-9469-2fd1f0aa46bd
+langcode: ja
+status: true
+dependencies: {  }
+name: panorama
+label: panorama
+effects:
+  bedbef5d-b84b-4b48-96ad-5210f2852006:
+    uuid: bedbef5d-b84b-4b48-96ad-5210f2852006
+    id: image_scale
+    weight: 1
+    data:
+      width: 680
+      height: null
+      upscale: false

@@ -1,0 +1,36 @@
+uuid: f7f74dbf-ae77-413d-8fcf-93defc6181a0
+langcode: ja
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.paragraph1.field_h2
+    - field.field.paragraph.paragraph1.field_paragraph_image
+    - field.field.paragraph.paragraph1.field_paragraph_text
+    - image.style.medium
+    - paragraphs.paragraphs_type.paragraph1
+  module:
+    - ds
+    - image
+id: paragraph.paragraph1.preview
+targetEntityType: paragraph
+bundle: paragraph1
+mode: preview
+content:
+  field_paragraph_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: file
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings:
+      ds:
+        ds_limit: ''
+    weight: 0
+    region: content
+hidden:
+  field_h2: true
+  field_paragraph_text: true
+  search_api_excerpt: true

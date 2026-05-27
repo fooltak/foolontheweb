@@ -1,0 +1,22 @@
+uuid: 808cd307-00dc-489f-8866-96231a947bb3
+langcode: ja
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_webform
+    - field.storage.comment.comment_body
+  module:
+    - text
+id: comment.comment_node_webform.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: comment_node_webform
+label: コメント
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,23 @@
+uuid: 32c149aa-0747-417d-a939-1fbd5a3ea20d
+langcode: ja
+status: true
+dependencies: {  }
+name: medium-vertical
+label: medium-vertical
+effects:
+  7e6f8166-d73b-46ee-827a-f82e0c19963e:
+    uuid: 7e6f8166-d73b-46ee-827a-f82e0c19963e
+    id: image_scale
+    weight: 1
+    data:
+      width: null
+      height: 470
+      upscale: false
+  c5971208-3e90-4449-9f26-1f7225608741:
+    uuid: c5971208-3e90-4449-9f26-1f7225608741
+    id: image_crop
+    weight: 2
+    data:
+      width: 353
+      height: 470
+      anchor: center-center

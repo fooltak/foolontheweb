@@ -1,0 +1,35 @@
+uuid: f4bf26e9-f328-4a9e-bab3-9e0bde28623e
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.tag2.field_images
+    - taxonomy.vocabulary.tag2
+  module:
+    - image
+    - text
+id: taxonomy_term.tag2.default
+targetEntityType: taxonomy_term
+bundle: tag2
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_images:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

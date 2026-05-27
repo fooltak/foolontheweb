@@ -1,0 +1,13 @@
+uuid: 3ea45c5e-8911-4c7b-a842-ae8384f1ef93
+langcode: ja
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: JBptjnfuOMtsdKygklXxoOgeOCTMtQxlkymjnnj-cC0
+id: node_unpromote_action
+label: 投稿をフロントページから撤去する
+type: node
+plugin: node_unpromote_action
+configuration: {  }

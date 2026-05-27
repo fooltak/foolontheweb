@@ -1,0 +1,81 @@
+uuid: 2b06211c-c333-45ce-b974-8c049252999c
+langcode: ja
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.blog.body
+    - field.field.node.blog.comment_node_blog
+    - field.field.node.blog.field_add_text
+    - field.field.node.blog.field_audio
+    - field.field.node.blog.field_audio2
+    - field.field.node.blog.field_classification
+    - field.field.node.blog.field_image3
+    - field.field.node.blog.field_images
+    - field.field.node.blog.field_images2
+    - field.field.node.blog.field_jplayer
+    - field.field.node.blog.field_latlng
+    - field.field.node.blog.field_link
+    - field.field.node.blog.field_metatag
+    - field.field.node.blog.field_no_insert
+    - field.field.node.blog.field_paragraph
+    - field.field.node.blog.field_tag2
+    - field.field.node.blog.taxonomy_vocabulary_1
+    - node.type.blog
+  module:
+    - image
+    - text
+    - user
+id: node.blog.teaser
+targetEntityType: node
+bundle: blog
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_images:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+  taxonomy_vocabulary_1:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+hidden:
+  comment_node_blog: true
+  field_add_text: true
+  field_audio: true
+  field_audio2: true
+  field_classification: true
+  field_image3: true
+  field_images2: true
+  field_jplayer: true
+  field_latlng: true
+  field_link: true
+  field_metatag: true
+  field_no_insert: true
+  field_paragraph: true
+  field_tag2: true
+  langcode: true

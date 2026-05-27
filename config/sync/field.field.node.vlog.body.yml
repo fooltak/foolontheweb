@@ -1,0 +1,24 @@
+uuid: db1b79c2-e2d6-44a8-9ede-fde906115c34
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.vlog
+  module:
+    - text
+id: node.vlog.body
+field_name: body
+entity_type: node
+bundle: vlog
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

@@ -1,0 +1,8 @@
+uuid: 86875d92-9f25-4b86-9aa5-334f813cd0b9
+langcode: ja
+status: true
+dependencies: {  }
+id: comment_node_fbpage
+label: 'FBpage comment'
+target_entity_type_id: node
+description: null

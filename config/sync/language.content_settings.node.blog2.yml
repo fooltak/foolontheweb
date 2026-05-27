@@ -1,0 +1,11 @@
+uuid: ec83f243-1f9a-42e8-81eb-a9c894a44856
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.blog2
+id: node.blog2
+target_entity_type_id: node
+target_bundle: blog2
+default_langcode: site_default
+language_alterable: false

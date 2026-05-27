@@ -1,0 +1,8 @@
+uuid: af6db462-7f45-469a-a3b5-abedd96c4bac
+langcode: en
+status: true
+dependencies: {  }
+id: secondary-menu
+label: 'Secondary menu'
+description: セカンダリリンクは、リーガルノーティスやコンタクトの詳細、プライマリリンクより下位の役割を果たす副ナビゲーション項目のように、多くの場合はページ用に使用されます。
+locked: false

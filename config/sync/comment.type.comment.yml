@@ -1,0 +1,10 @@
+uuid: e1c5c1fb-af6f-4172-b5bd-b422a4b34eb0
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: bqZsN31T2n0UjcbyCpOPi9D2iO0sAOHR7FnEs9qMvaA
+id: comment
+label: デフォルトのコメント
+target_entity_type_id: node
+description: コンテンツへのコメントを許可

@@ -1,0 +1,21 @@
+uuid: b7158413-10ce-47c7-8f60-1ba8ff348096
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_actual_postdate
+    - node.type.story
+  module:
+    - datetime
+id: node.story.field_actual_postdate
+field_name: field_actual_postdate
+entity_type: node
+bundle: story
+label: 実投稿日
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

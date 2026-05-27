@@ -1,0 +1,13 @@
+uuid: a205b224-f672-485d-bdd2-5ba7e71ac558
+langcode: ja
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: LhdsoZPL_pFas2fjaAWue4zvrQ_tEVofLYtcNec-JGM
+id: node_save_action
+label: 投稿を保存する
+type: node
+plugin: 'entity:save_action:node'
+configuration: {  }

@@ -1,0 +1,21 @@
+uuid: 335660ab-3dd9-4506-9bbc-847cf985360a
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metatag
+    - node.type.image_title
+  module:
+    - metatag
+id: node.image_title.field_metatag
+field_name: field_metatag
+entity_type: node
+bundle: image_title
+label: 'Meta tags'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

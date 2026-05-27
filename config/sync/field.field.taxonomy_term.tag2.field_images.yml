@@ -1,0 +1,38 @@
+uuid: 9b782e0d-807a-4b0d-9bec-d9b0d3fd9591
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_images
+    - taxonomy.vocabulary.tag2
+  module:
+    - image
+id: taxonomy_term.tag2.field_images
+field_name: field_images
+entity_type: taxonomy_term
+bundle: tag2
+label: 画像
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: ''
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: 2000x2000
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: true
+  title_field: true
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

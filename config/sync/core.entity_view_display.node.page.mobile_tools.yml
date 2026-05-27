@@ -1,0 +1,29 @@
+uuid: efa08c48-4ce5-4091-88bb-433a705b8bf4
+langcode: ja
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.mobile_tools
+    - field.field.node.page.body
+    - field.field.node.page.comment_node_page
+    - field.field.node.page.field_images
+    - field.field.node.page.field_pdf
+    - node.type.page
+  module:
+    - user
+id: node.page.mobile_tools
+targetEntityType: node
+bundle: page
+mode: mobile_tools
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  comment_node_page: true
+  field_images: true
+  field_pdf: true
+  langcode: true

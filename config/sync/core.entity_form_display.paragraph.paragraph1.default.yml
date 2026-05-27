@@ -1,0 +1,45 @@
+uuid: ab75025a-a917-49d3-b518-064bdd6db05b
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraph1.field_h2
+    - field.field.paragraph.paragraph1.field_paragraph_image
+    - field.field.paragraph.paragraph1.field_paragraph_text
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.paragraph1
+  module:
+    - image
+    - text
+id: paragraph.paragraph1.default
+targetEntityType: paragraph
+bundle: paragraph1
+mode: default
+content:
+  field_h2:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_paragraph_image:
+    type: image_image
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_paragraph_text:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 4
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

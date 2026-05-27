@@ -1,0 +1,22 @@
+uuid: 340d84df-1433-4599-9e47-e710adbdd116
+langcode: ja
+status: true
+dependencies:
+  theme:
+    - adminimal_theme
+_core:
+  default_config_hash: CyX_aDKAka2_eihevNLscCHDYrzDgIqwWzFVEFRKIww
+id: adminimal_theme_primary_local_tasks
+theme: adminimal_theme
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: プライマリータブ
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

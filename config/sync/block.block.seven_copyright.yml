@@ -1,0 +1,25 @@
+uuid: 8527ad2c-b235-4581-b4b6-ffdbc9d4b0c8
+langcode: ja
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a002856d-2897-4214-a6d0-112c8cef4fc7'
+  module:
+    - block_content
+  theme:
+    - seven
+id: seven_copyright
+theme: seven
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:a002856d-2897-4214-a6d0-112c8cef4fc7'
+settings:
+  id: 'block_content:a002856d-2897-4214-a6d0-112c8cef4fc7'
+  label: copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

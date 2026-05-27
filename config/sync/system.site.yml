@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: ja
+uuid: 0e6e4ec4-b611-458b-8776-579ac8ddcb48
+name: 'The fool on the web'
+mail: tak@foolontheweb.net
+slogan: 上町のオッサンの鳥鉄日記
+page:
+  403: ''
+  404: ''
+  front: /frontpage
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: ja
+mail_notification: null

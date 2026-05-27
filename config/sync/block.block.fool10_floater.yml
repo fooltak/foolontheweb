@@ -1,0 +1,25 @@
+uuid: a5d4e506-44cf-429b-b218-af0304f0db3a
+langcode: ja
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:41a3c7a1-6e27-4eb5-a463-30a9f3eb792f'
+  module:
+    - block_content
+  theme:
+    - fool10
+id: fool10_floater
+theme: fool10
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:41a3c7a1-6e27-4eb5-a463-30a9f3eb792f'
+settings:
+  id: 'block_content:41a3c7a1-6e27-4eb5-a463-30a9f3eb792f'
+  label: floater
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

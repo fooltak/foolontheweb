@@ -1,0 +1,29 @@
+uuid: 1408884d-40b4-4ced-a4ef-7674e28ab585
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.blog2
+    - taxonomy.vocabulary.vocabulary_1
+id: node.blog2.field_tags
+field_name: field_tags
+entity_type: node
+bundle: blog2
+label: タグ
+description: 'コンマ区切りのリストを入力してください。例: アムステルダム, メキシコシティ, "クリーブランド, オハイオ"'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      vocabulary_1: vocabulary_1
+    sort:
+      field: _none
+      direction: asc
+    auto_create: true
+    auto_create_bundle: vocabulary_1
+field_type: entity_reference

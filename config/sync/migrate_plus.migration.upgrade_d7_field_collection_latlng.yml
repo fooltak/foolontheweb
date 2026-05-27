@@ -1,0 +1,54 @@
+uuid: 542ca7f8-546c-41d6-bd55-e037ef8ab86c
+langcode: ja
+status: true
+dependencies: {  }
+id: upgrade_d7_field_collection_latlng
+class: Drupal\migrate\Plugin\Migration
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - 'Drupal 7'
+  - Content
+  - 'Field Collection Content'
+migration_group: migrate_drupal_7
+label: 'Field Collections (Latlng)'
+source:
+  plugin: d7_field_collection_item
+  field_name: field_latlng
+process:
+  type:
+    -
+      plugin: get
+      source: bundle
+  parent_id:
+    -
+      plugin: get
+      source: parent_id
+  parent_type:
+    -
+      plugin: get
+      source: parent_type
+  parent_field_name:
+    -
+      plugin: get
+      source: field_name
+  field_lat:
+    -
+      plugin: get
+      source: field_lat
+  field_lng:
+    -
+      plugin: get
+      source: field_lng
+  field_metatag:
+    -
+      plugin: d7_metatag_entities
+      source: pseudo_metatag_entities
+destination:
+  plugin: 'entity_reference_revisions:paragraph'
+  default_bundle: latlng
+migration_dependencies:
+  required:
+    - upgrade_d7_field_collection_type
+  optional:
+    - upgrade_d7_field_instance

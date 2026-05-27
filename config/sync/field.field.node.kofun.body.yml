@@ -1,0 +1,24 @@
+uuid: 5e547f4c-27c4-4abb-9cd0-e0173895c6a2
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.kofun
+  module:
+    - text
+id: node.kofun.body
+field_name: body
+entity_type: node
+bundle: kofun
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

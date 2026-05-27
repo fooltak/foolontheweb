@@ -1,0 +1,39 @@
+uuid: 60c2b052-0c20-4c52-8ab0-9d0cc5fb8f65
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_mobile
+field_name: field_mobile
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '0'
+      label: i-mode
+    -
+      value: '1'
+      label: EZweb
+    -
+      value: '2'
+      label: Y!ケータイ
+    -
+      value: '3'
+      label: スマートフォン
+    -
+      value: '4'
+      label: iPhone
+    -
+      value: '5'
+      label: Android
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

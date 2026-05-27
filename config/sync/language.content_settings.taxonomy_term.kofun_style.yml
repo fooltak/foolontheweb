@@ -1,0 +1,11 @@
+uuid: 2b2ca26c-36ab-4e47-83e7-732f9692a8bf
+langcode: ja
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.kofun_style
+id: taxonomy_term.kofun_style
+target_entity_type_id: taxonomy_term
+target_bundle: kofun_style
+default_langcode: site_default
+language_alterable: false

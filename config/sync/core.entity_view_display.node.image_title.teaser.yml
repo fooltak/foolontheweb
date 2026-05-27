@@ -1,0 +1,48 @@
+uuid: 24e365ef-4722-4fc0-ba6c-88d772f52436
+langcode: ja
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.image_title.body
+    - field.field.node.image_title.comment_node_image_title
+    - field.field.node.image_title.field_bunrui
+    - field.field.node.image_title.field_family
+    - field.field.node.image_title.field_image_category
+    - field.field.node.image_title.field_images
+    - field.field.node.image_title.field_metatag
+    - field.field.node.image_title.field_sort
+    - field.field.node.image_title.field_view_url
+    - node.type.image_title
+  module:
+    - text
+    - user
+id: node.image_title.teaser
+targetEntityType: node
+bundle: image_title
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  comment_node_image_title: true
+  field_bunrui: true
+  field_family: true
+  field_image_category: true
+  field_images: true
+  field_metatag: true
+  field_sort: true
+  field_view_url: true
+  langcode: true
+  search_api_excerpt: true

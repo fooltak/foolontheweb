@@ -1,0 +1,24 @@
+uuid: e2619bd2-fe93-4702-99bf-6589b71df0b7
+langcode: ja
+status: true
+dependencies:
+  config:
+    - views.view.archive
+  module:
+    - views
+  theme:
+    - seven
+id: seven_views_block__archive_block_1
+theme: seven
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:archive-block_1'
+settings:
+  id: 'views_block:archive-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

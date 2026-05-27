@@ -1,0 +1,23 @@
+uuid: 322c22b9-abe7-4f8e-88c1-3f75aa177044
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sort
+    - node.type.image_title
+id: node.image_title.field_sort
+field_name: field_sort
+entity_type: node
+bundle: image_title
+label: sort
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

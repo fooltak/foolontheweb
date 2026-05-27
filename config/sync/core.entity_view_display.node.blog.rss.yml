@@ -1,0 +1,75 @@
+uuid: 25e03b1c-2e73-45a6-9295-8910852199b9
+langcode: ja
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.rss
+    - field.field.node.blog.body
+    - field.field.node.blog.comment_node_blog
+    - field.field.node.blog.field_add_text
+    - field.field.node.blog.field_audio
+    - field.field.node.blog.field_audio2
+    - field.field.node.blog.field_classification
+    - field.field.node.blog.field_image3
+    - field.field.node.blog.field_images
+    - field.field.node.blog.field_images2
+    - field.field.node.blog.field_jplayer
+    - field.field.node.blog.field_latlng
+    - field.field.node.blog.field_link
+    - field.field.node.blog.field_metatag
+    - field.field.node.blog.field_no_insert
+    - field.field.node.blog.field_paragraph
+    - field.field.node.blog.field_tag2
+    - field.field.node.blog.taxonomy_vocabulary_1
+    - image.style.large
+    - node.type.blog
+  module:
+    - image
+    - text
+    - user
+id: node.blog.rss
+targetEntityType: node
+bundle: blog
+mode: rss
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 256
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_images:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: large
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  comment_node_blog: true
+  field_add_text: true
+  field_audio: true
+  field_audio2: true
+  field_classification: true
+  field_image3: true
+  field_images2: true
+  field_jplayer: true
+  field_latlng: true
+  field_link: true
+  field_metatag: true
+  field_no_insert: true
+  field_paragraph: true
+  field_tag2: true
+  langcode: true
+  taxonomy_vocabulary_1: true

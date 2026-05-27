@@ -1,0 +1,13 @@
+uuid: 77f06ade-3f64-4d6d-affc-8f5327bae6d4
+langcode: ja
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: VVyUA6PIaVeGtcIbgEWqJ6SYDiJdReBeojFswURFpKs
+id: media_save_action
+label: メディアを保存
+type: media
+plugin: 'entity:save_action:media'
+configuration: {  }

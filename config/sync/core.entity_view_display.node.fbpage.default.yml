@@ -1,0 +1,41 @@
+uuid: de3d87f3-5bbd-4e2a-a687-7b1c2704c8c8
+langcode: ja
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_fbpage.default
+    - field.field.node.fbpage.body
+    - field.field.node.fbpage.comment_node_fbpage
+    - node.type.fbpage
+  module:
+    - comment
+    - text
+    - user
+id: node.fbpage.default
+targetEntityType: node
+bundle: fbpage
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  comment_node_fbpage:
+    type: comment_default
+    label: hidden
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

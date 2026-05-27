@@ -1,0 +1,11 @@
+uuid: f24b9705-614a-4703-9da6-1d5c3ae70639
+langcode: ja
+status: true
+dependencies: {  }
+name: サイト
+type: site
+description: null
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

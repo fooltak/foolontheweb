@@ -1,0 +1,102 @@
+uuid: f292a356-fbaa-4844-877d-1cb166205e88
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraph1.field_h2
+    - field.field.paragraph.paragraph1.field_paragraph_image
+    - field.field.paragraph.paragraph1.field_paragraph_text
+    - image.style.medium
+    - paragraphs.paragraphs_type.paragraph1
+  module:
+    - ds
+    - image
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: ds_2col_stacked_fluid
+      library: ds/ds_2col_stacked_fluid
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        classes:
+          layout_class: {  }
+        wrappers:
+          header: div
+          left: div
+          right: div
+          footer: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        label: ''
+    regions:
+      header:
+        - field_h2
+        - field_paragraph_image
+        - field_paragraph_text
+id: paragraph.paragraph1.default
+targetEntityType: paragraph
+bundle: paragraph1
+mode: default
+content:
+  field_h2:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            lbw: false
+            lbw-el: ''
+            lbw-cl: ''
+            lbw-at: ''
+            lb-col: false
+            ow: false
+            ow-el: ''
+            ow-cl: ''
+            ow-at: ''
+            ow-def-at: false
+            ow-def-cl: false
+            fis: true
+            fis-el: h2
+            fis-cl: ''
+            fis-at: ''
+            fis-def-at: false
+            fi: false
+            fi-el: ''
+            fi-cl: ''
+            fi-at: ''
+            fi-def-at: false
+            prefix: ''
+            suffix: ''
+    weight: 0
+    region: header
+  field_paragraph_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: file
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings:
+      ds:
+        ds_limit: ''
+    weight: 1
+    region: header
+  field_paragraph_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: header
+hidden:
+  search_api_excerpt: true

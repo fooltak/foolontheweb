@@ -1,0 +1,30 @@
+_core:
+  default_config_hash: 6CZIzFifRq3qbdq3n3nDpEOO4hWIQtKOAQNPvGNGKeM
+langcode: ja
+cancel_confirm:
+  subject: '[site:name]での[user:name]さんのアカウント詳細（削除）'
+  body: "[user:name]さん\r\n\r\nあなたの[site:name]でのアカウントは削除されました。"
+password_reset:
+  subject: '[site:name]での[user:name]さんのパスワード再設定方法'
+  body: "[user:name]さん\r\n\r\nあなたの[site:name]でのアカウントで、パスワード再発行のリクエストが\r\nありました。\r\n以下のリンクをクリックするか、ブラウザへコピー＆ペーストして\r\n今すぐ [site:url-brief] へログインすることができます。\r\n\r\nログインURL： [user:one-time-login-url]\r\n\r\nこれはワンタイムログインリンクです。\r\n有効期限は1日限りとなり、それ以降は期限切れのため使用不可能\r\nとなります。\r\n\r\nログインすると以下のURLにリダイレクトされ、希望するパスワードに変更\r\nすることができます。\r\n\r\nパスワード変更用フォーム： [user:edit-url]"
+register_admin_created:
+  subject: '[site:name]でのアカウントが管理者により発行されました'
+  body: "[user:name]さん\r\n\r\n[site:name]でのアカウントが管理者により発行されました。\r\n以下のユーザ名とパスワードを使って、今すぐ当サイトへログイン\r\nできます。\r\nログイン用フォーム： [site:login-url]\r\n\r\nユーザ名　： [user:name]\r\nパスワード： \r\n\r\n以下のリンクをクリックするか、ブラウザへコピー＆ペーストして\r\nログインすることもできます。\r\n\r\nログインURL： [user:one-time-login-url]\r\n（ただし、このリンクからログインできるのは1回限りです）\r\n\r\nログイン後にパスワードの変更を行うこともできます。\r\nパスワード変更用フォーム： [user:edit-url]\r\n\r\n\r\n--  [site:name]"
+register_no_approval_required:
+  subject: '[user:name]さん [site:name]へようこそ'
+  body: "[user:name]さん\r\n\r\n[site:name]へのご登録ありがとうございます。\r\n以下のユーザ名とパスワードを使って、今すぐ当サイトへログイン\r\nできます。\r\nログイン用フォーム： [site:login-url]\r\n\r\nユーザ名　： [user:name]\r\nパスワード： \r\n\r\n以下のリンクをクリックするか、ブラウザへコピー＆ペーストして\r\nログインすることもできます。\r\n\r\nログインURL： [user:one-time-login-url]\r\n（ただし、このリンクからログインできるのは1回限りです）\r\n\r\nログイン後にパスワードの変更を行うこともできます。\r\nパスワード変更用フォーム： [user:edit-url]\r\n\r\n\r\n--  [site:name]"
+register_pending_approval:
+  subject: '[site:name] の [user:display-name] のアカウント詳細 (管理者の承認待ち)'
+  body: "[user:name]さん\r\n\r\n[site:name]へのご登録ありがとうございます。\r\nあなたのアカウント申請は、現在のところ承認待ちとなっております。\r\n承認された場合、ログイン方法やパスワードの設定方法などの詳細を含む、\r\n別のメールがあなた宛に送信されます。\r\n\r\n\r\n--  [site:name]"
+register_pending_approval_admin:
+  subject: '[site:name] の [user:display-name] のアカウント詳細 (管理者の承認待ち)'
+  body: "[user:display-name] がアカウントの申請を行いました。\r\n\r\n[user:edit-url]"
+status_activated:
+  subject: '[site:name]での[user:name]さんのアカウント詳細（承認済）'
+  body: "[user:name]さん\r\n\r\n[site:name]でのあなたのアカウントが有効化されました。\r\n\r\n以下のリンクをクリックするか、ブラウザへコピー＆ペーストして\r\n今すぐログインすることができます。\r\n\r\nログインURL： [user:one-time-login-url]\r\n\r\nこれはワンタイムログインリンクです。\r\nログインすると以下のURLにリダイレクトされ、希望するパスワードに変更\r\nすることができます。\r\n\r\nパスワード変更用フォーム： [user:edit-url]\r\n\r\nパスワードの設定後は、以下のユーザ名を使用してログインフォームから\r\nログインできます。\r\n\r\nユーザ名： [user:name]\r\nログイン用フォーム： [site:login-url]\r\n"
+status_blocked:
+  subject: '[site:name]での[user:name]さんのアカウント詳細（ブロック）'
+  body: "[user:name]さん\r\n\r\nあなたの[site:name]でのアカウントはブロックされました。"
+status_canceled:
+  subject: '[site:name] での [user:display-name] さんのアカウントの詳細 (キャンセル)'
+  body: "[user:display-name] 様\r\n\r\n[site:name] のあなたのアカウントがキャンセルされました。\r\n\r\n--  [site:name] チーム"

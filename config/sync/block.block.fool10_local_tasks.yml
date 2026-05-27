@@ -1,0 +1,22 @@
+uuid: 9de7cdda-2fac-4f5a-b80b-edfc7aa71098
+langcode: en
+status: true
+dependencies:
+  theme:
+    - fool10
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: fool10_local_tasks
+theme: fool10
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

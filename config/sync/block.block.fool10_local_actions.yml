@@ -1,0 +1,20 @@
+uuid: 9b9d2f79-a9b1-4ec2-a970-3a2f85337609
+langcode: en
+status: true
+dependencies:
+  theme:
+    - fool10
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: fool10_local_actions
+theme: fool10
+region: header
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

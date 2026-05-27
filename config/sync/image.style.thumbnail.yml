@@ -1,0 +1,17 @@
+uuid: f2fca81e-c4f0-431d-abec-a3002909bd91
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: cCiWdBHgLwj5omG35lsKc4LkW4MBdmcctkVop4ol5x0
+name: thumbnail
+label: thumbnail
+effects:
+  b715c3ae-9c9b-49c1-a05d-411b68c2c94e:
+    uuid: b715c3ae-9c9b-49c1-a05d-411b68c2c94e
+    id: image_scale
+    weight: 0
+    data:
+      width: 150
+      height: 150
+      upscale: false

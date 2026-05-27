@@ -1,0 +1,11 @@
+uuid: aad50009-1188-4d30-8232-9877f6fe8ffd
+langcode: ja
+status: true
+dependencies:
+  module:
+    - user
+id: user.token
+label: Token
+description: ''
+targetEntityType: user
+cache: true

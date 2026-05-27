@@ -1,0 +1,62 @@
+uuid: 2a41ecf8-7f4b-4f3b-bb9a-2ed7973e3f01
+langcode: ja
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.mobile_tools
+    - field.field.node.blog.body
+    - field.field.node.blog.comment_node_blog
+    - field.field.node.blog.field_add_text
+    - field.field.node.blog.field_audio
+    - field.field.node.blog.field_audio2
+    - field.field.node.blog.field_classification
+    - field.field.node.blog.field_image3
+    - field.field.node.blog.field_images
+    - field.field.node.blog.field_images2
+    - field.field.node.blog.field_jplayer
+    - field.field.node.blog.field_latlng
+    - field.field.node.blog.field_link
+    - field.field.node.blog.field_metatag
+    - field.field.node.blog.field_no_insert
+    - field.field.node.blog.field_paragraph
+    - field.field.node.blog.field_tag2
+    - field.field.node.blog.taxonomy_vocabulary_1
+    - node.type.blog
+  module:
+    - text
+    - user
+id: node.blog.mobile_tools
+targetEntityType: node
+bundle: blog
+mode: mobile_tools
+content:
+  field_classification:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  comment_node_blog: true
+  field_add_text: true
+  field_audio: true
+  field_audio2: true
+  field_image3: true
+  field_images: true
+  field_images2: true
+  field_jplayer: true
+  field_latlng: true
+  field_link: true
+  field_metatag: true
+  field_no_insert: true
+  field_paragraph: true
+  field_tag2: true
+  langcode: true
+  taxonomy_vocabulary_1: true

@@ -1,0 +1,11 @@
+uuid: 5648b5c3-68be-4ff3-bb4d-7d6302e8e355
+langcode: ja
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.classification
+id: taxonomy_term.classification
+target_entity_type_id: taxonomy_term
+target_bundle: classification
+default_langcode: site_default
+language_alterable: false

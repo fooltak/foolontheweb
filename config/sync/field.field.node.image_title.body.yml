@@ -1,0 +1,24 @@
+uuid: e04d145c-3f75-488d-b6f6-e8f298395a1b
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.image_title
+  module:
+    - text
+id: node.image_title.body
+field_name: body
+entity_type: node
+bundle: image_title
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

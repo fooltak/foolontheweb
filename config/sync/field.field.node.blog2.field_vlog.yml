@@ -1,0 +1,19 @@
+uuid: 5016b35b-2ead-42b6-9a3b-6adf1082ec37
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vlog
+    - node.type.blog2
+id: node.blog2.field_vlog
+field_name: field_vlog
+entity_type: node
+bundle: blog2
+label: vlog
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

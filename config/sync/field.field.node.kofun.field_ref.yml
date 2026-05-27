@@ -1,0 +1,31 @@
+uuid: e7b36322-d819-44a7-afc8-a55f16beed95
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ref
+    - node.type.blog
+    - node.type.blog2
+    - node.type.kofun
+id: node.kofun.field_ref
+field_name: field_ref
+entity_type: node
+bundle: kofun
+label: ブログ
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      blog2: blog2
+      blog: blog
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: blog2
+field_type: entity_reference

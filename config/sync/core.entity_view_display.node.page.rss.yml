@@ -1,0 +1,40 @@
+uuid: 12969880-2a4a-48d1-9ba5-6792283b145f
+langcode: ja
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.rss
+    - field.field.node.page.body
+    - field.field.node.page.comment_node_page
+    - field.field.node.page.field_images
+    - field.field.node.page.field_pdf
+    - node.type.page
+  module:
+    - image
+    - user
+id: node.page.rss
+targetEntityType: node
+bundle: page
+mode: rss
+content:
+  field_images:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  comment_node_page: true
+  field_pdf: true
+  langcode: true

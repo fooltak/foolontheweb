@@ -1,0 +1,27 @@
+uuid: 8c664f54-5c1a-4f88-9a2c-4950804a9c99
+langcode: ja
+status: true
+dependencies: {  }
+name: 'Plain text'
+format: '5'
+weight: -7
+filters:
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: true
+    weight: 2
+    settings: {  }
+  filter_html_escape:
+    id: filter_html_escape
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: true
+    weight: 1
+    settings:
+      filter_url_length: 72

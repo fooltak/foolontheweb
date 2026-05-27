@@ -1,0 +1,8 @@
+uuid: 28006bd8-1329-4734-b221-5e2db13204f5
+langcode: ja
+status: true
+dependencies: {  }
+id: comment_node_image_title
+label: 'image title comment'
+target_entity_type_id: node
+description: null

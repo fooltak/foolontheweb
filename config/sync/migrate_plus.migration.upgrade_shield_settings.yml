@@ -1,0 +1,73 @@
+uuid: fa15f829-c612-4bc2-88a2-3e67cc906447
+langcode: ja
+status: true
+dependencies: {  }
+id: upgrade_shield_settings
+class: Drupal\migrate\Plugin\Migration
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - 'Drupal 7'
+  - Configuration
+migration_group: migrate_drupal_7
+label: 'Shield configuration'
+source:
+  plugin: variable
+  variables:
+    - shield_enabled
+    - shield_allow_cli
+    - shield_ignored_addresses
+    - shield_user
+    - shield_pass
+    - shield_method
+    - shield_paths
+    - shield_print
+  source_module: shield
+process:
+  shield_enable:
+    -
+      plugin: static_map
+      source: shield_enabled
+      map:
+        1: true
+      default_value: false
+  credentials/shield/user:
+    -
+      plugin: get
+      source: shield_user
+  credentials/shield/pass:
+    -
+      plugin: get
+      source: shield_pass
+  print:
+    -
+      plugin: get
+      source: shield_print
+  allow_cli:
+    -
+      plugin: static_map
+      source: shield_allow_cli
+      map:
+        1: true
+      default_value: false
+  method:
+    -
+      plugin: static_map
+      source: shield_method
+      map:
+        2: 1
+      default_value: 0
+  paths:
+    -
+      plugin: shield_paths
+      source: shield_paths
+  allowlist:
+    -
+      plugin: get
+      source: shield_ignored_addresses
+destination:
+  plugin: config
+  config_name: shield.settings
+migration_dependencies:
+  required: {  }
+  optional: {  }

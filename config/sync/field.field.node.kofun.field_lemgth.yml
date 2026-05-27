@@ -1,0 +1,19 @@
+uuid: 74a17f5b-8397-4a4c-b0b3-632df259fa59
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lemgth
+    - node.type.kofun
+id: node.kofun.field_lemgth
+field_name: field_lemgth
+entity_type: node
+bundle: kofun
+label: 墳丘長
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

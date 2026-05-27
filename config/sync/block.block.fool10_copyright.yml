@@ -1,0 +1,25 @@
+uuid: bb5d8029-3293-408c-94a3-d492a78b9270
+langcode: ja
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a002856d-2897-4214-a6d0-112c8cef4fc7'
+  module:
+    - block_content
+  theme:
+    - fool10
+id: fool10_copyright
+theme: fool10
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:a002856d-2897-4214-a6d0-112c8cef4fc7'
+settings:
+  id: 'block_content:a002856d-2897-4214-a6d0-112c8cef4fc7'
+  label: copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

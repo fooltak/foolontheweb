@@ -1,0 +1,60 @@
+uuid: 477058a2-aa76-4af7-9569-e61ca98594df
+langcode: ja
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.kofun.body
+    - field.field.node.kofun.field_address
+    - field.field.node.kofun.field_artifact
+    - field.field.node.kofun.field_construction
+    - field.field.node.kofun.field_height
+    - field.field.node.kofun.field_image
+    - field.field.node.kofun.field_kofun_style
+    - field.field.node.kofun.field_lemgth
+    - field.field.node.kofun.field_ref
+    - image.style.medium
+    - node.type.kofun
+  module:
+    - image
+    - text
+    - user
+id: node.kofun.teaser
+targetEntityType: node
+bundle: kofun
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_address: true
+  field_artifact: true
+  field_construction: true
+  field_height: true
+  field_kofun_style: true
+  field_lemgth: true
+  field_ref: true
+  langcode: true
+  search_api_excerpt: true

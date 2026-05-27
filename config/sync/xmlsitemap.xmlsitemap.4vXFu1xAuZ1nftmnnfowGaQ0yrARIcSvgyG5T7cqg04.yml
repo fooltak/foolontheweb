@@ -1,0 +1,8 @@
+uuid: 97f0662e-375b-4414-8763-3ce80e89ddee
+langcode: ja
+status: true
+dependencies: {  }
+id: 4vXFu1xAuZ1nftmnnfowGaQ0yrARIcSvgyG5T7cqg04
+label: 'https://foolontheweb.net'
+context:
+  language: ja

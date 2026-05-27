@@ -1,0 +1,9 @@
+uuid: 073f6c67-dd2b-4466-84f1-432923a2c5b7
+langcode: ja
+status: true
+dependencies: {  }
+name: 'Wordpress tag'
+vid: vocabulary_2
+description: null
+weight: 0
+new_revision: false

@@ -1,0 +1,18 @@
+uuid: c5248007-54c0-4c70-9b9c-aff8a547e539
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.fbpage
+id: node.fbpage.title
+field_name: title
+entity_type: node
+bundle: fbpage
+label: タイトル
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

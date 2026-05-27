@@ -1,0 +1,22 @@
+uuid: 69f0e711-a687-4fd5-8f0b-ca3e192abd26
+langcode: ja
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_fbpage
+    - field.storage.comment.comment_body
+  module:
+    - text
+id: comment.comment_node_fbpage.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: comment_node_fbpage
+label: コメント
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

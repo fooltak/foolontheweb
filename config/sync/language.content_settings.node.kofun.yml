@@ -1,0 +1,11 @@
+uuid: 54872424-f232-4145-84d7-bfb2371a407e
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.kofun
+id: node.kofun
+target_entity_type_id: node
+target_bundle: kofun
+default_langcode: site_default
+language_alterable: false

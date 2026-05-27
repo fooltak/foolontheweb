@@ -1,0 +1,8 @@
+uuid: 973ae450-c27d-4a7b-81d5-41fa033c107d
+langcode: ja
+status: true
+dependencies: {  }
+id: comment_node_blog
+label: 'ブログエントリ comment'
+target_entity_type_id: node
+description: null

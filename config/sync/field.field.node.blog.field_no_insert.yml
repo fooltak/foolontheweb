@@ -1,0 +1,23 @@
+uuid: 5e078ba4-d91f-4d29-9d09-5d67bfc126cb
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_no_insert
+    - node.type.blog
+  module:
+    - options
+id: node.blog.field_no_insert
+field_name: field_no_insert
+entity_type: node
+bundle: blog
+label: 挿入なし
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: list_string

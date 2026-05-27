@@ -1,0 +1,28 @@
+uuid: 3ad50a6c-2af3-4aa0-ab56-1c9b41700b86
+langcode: ja
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_fbpage
+    - field.field.comment.comment_node_fbpage.comment_body
+  module:
+    - text
+id: comment.comment_node_fbpage.default
+targetEntityType: comment
+bundle: comment_node_fbpage
+mode: default
+content:
+  comment_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

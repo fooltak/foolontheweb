@@ -1,0 +1,22 @@
+uuid: 5ced441e-f389-482f-929c-d5d432c85b2a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fool10
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: fool10_content
+theme: fool10
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,26 @@
+uuid: e5270908-74af-4200-8ae7-fd8647024708
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_family
+    - node.type.image_title
+    - taxonomy.vocabulary.family
+id: node.image_title.field_family
+field_name: field_family
+entity_type: node
+bundle: image_title
+label: 科
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      family: family
+    sort:
+      field: _none
+field_type: entity_reference

@@ -1,0 +1,19 @@
+uuid: dddd803b-0587-44a7-a6fb-cfe8a0e9b2e3
+langcode: ja
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_artifact
+field_name: field_artifact
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

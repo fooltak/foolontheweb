@@ -1,0 +1,30 @@
+uuid: dd3b6814-087e-46c2-acdc-02a91fe87e71
+langcode: ja
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fa65c96e-3a1f-4011-a5f8-905d13ff7ca9'
+  module:
+    - block_content
+    - system
+  theme:
+    - fool10
+id: fool10_edgepc
+theme: fool10
+region: content
+weight: -4
+provider: null
+plugin: 'block_content:fa65c96e-3a1f-4011-a5f8-905d13ff7ca9'
+settings:
+  id: 'block_content:fa65c96e-3a1f-4011-a5f8-905d13ff7ca9'
+  label: 'edge PC'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/train?contains=阪堺'

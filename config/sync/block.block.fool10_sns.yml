@@ -1,0 +1,25 @@
+uuid: 4fb3b34a-a400-4c8d-9fe8-3660fcb74ec0
+langcode: ja
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:963cc67c-6c62-45e3-9aa7-5373ffb92702'
+  module:
+    - block_content
+  theme:
+    - fool10
+id: fool10_sns
+theme: fool10
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:963cc67c-6c62-45e3-9aa7-5373ffb92702'
+settings:
+  id: 'block_content:963cc67c-6c62-45e3-9aa7-5373ffb92702'
+  label: SNS
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

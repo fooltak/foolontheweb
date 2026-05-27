@@ -1,0 +1,9 @@
+uuid: 818fede2-5a65-416e-8ec2-d6ae779b975b
+langcode: ja
+status: true
+dependencies: {  }
+name: family
+vid: family
+description: null
+weight: 0
+new_revision: false

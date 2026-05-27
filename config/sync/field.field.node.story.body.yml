@@ -1,0 +1,24 @@
+uuid: 4df2ad37-7336-4925-9a57-5fa12469ac72
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.story
+  module:
+    - text
+id: node.story.body
+field_name: body
+entity_type: node
+bundle: story
+label: 本文
+description: '<em>ストーリー</em> （形の上では <em>ページ</em> と同様）は、「お知らせ」や「ニュース」のようなコンテンツの表示・作成に理想的です。 プレスリリース、サイトの告知、略式のブログのようなエントリは、すべて <em>ストーリー</em> で作成できます。 デフォルトで <em>ストーリー</em> エントリは、自動的にフロントページに掲載され、コメントの投稿を許可します。'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

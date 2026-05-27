@@ -1,0 +1,13 @@
+uuid: 91b80d1f-f234-4d29-b44d-48f9433b3899
+langcode: ja
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: C7X8h9FWlwkQ9y5mnU2JzgaZICAdc6HFbPVbhvjlAYE
+id: node_unpublish_action
+label: 投稿を非掲載にする
+type: node
+plugin: 'entity:unpublish_action:node'
+configuration: {  }

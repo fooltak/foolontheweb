@@ -1,0 +1,36 @@
+uuid: 4dce70d2-0531-4b01-ac62-bad4fbd51804
+langcode: ja
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.vlog.body
+    - field.field.node.vlog.field_thumbnail
+    - field.field.node.vlog.field_youtube
+    - node.type.vlog
+  module:
+    - text
+    - user
+id: node.vlog.teaser
+targetEntityType: node
+bundle: vlog
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_thumbnail: true
+  field_youtube: true
+  langcode: true
+  search_api_excerpt: true

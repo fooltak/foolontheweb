@@ -1,0 +1,36 @@
+uuid: 228499e0-257c-4d25-bd62-b7ede3c8a942
+langcode: ja
+status: true
+dependencies:
+  config:
+    - views.view.search
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - fool10
+id: fool10_serach
+theme: fool10
+region: sidebar_second
+weight: -4
+provider: null
+plugin: 'views_exposed_filter_block:search-block_1'
+settings:
+  id: 'views_exposed_filter_block:search-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: 'Site Search'
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: /kofun
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator

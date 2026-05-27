@@ -1,0 +1,11 @@
+uuid: 548c6a28-0e8c-437b-a37c-df4c77413090
+langcode: ja
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.construction
+id: taxonomy_term.construction
+target_entity_type_id: taxonomy_term
+target_bundle: construction
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,16 @@
+uuid: a581a283-9fb2-46ee-8780-1cf962b57fec
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hzgvcRgZHltqWf8hBmttoWh95tCJoPL25lPq9YSIRsY
+id: video
+label: ビデオ
+description: サーバー内に保存された動画ファイル
+source: video_file
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_video_file
+field_map:
+  name: name

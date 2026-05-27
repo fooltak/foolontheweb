@@ -1,0 +1,8 @@
+uuid: d1c1a860-119b-47e3-9a05-882bb13b6e77
+langcode: ja
+status: true
+dependencies: {  }
+id: comment_node_page
+label: 'ページ comment'
+target_entity_type_id: node
+description: null

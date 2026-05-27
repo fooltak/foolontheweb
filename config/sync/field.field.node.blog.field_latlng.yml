@@ -1,0 +1,31 @@
+uuid: b483fef1-9cee-48bf-931c-bf6236d5f07a
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_latlng
+    - node.type.blog
+    - paragraphs.paragraphs_type.latlng
+  module:
+    - entity_reference_revisions
+id: node.blog.field_latlng
+field_name: field_latlng
+entity_type: node
+bundle: blog
+label: 緯度経度
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      latlng: latlng
+    negate: 0
+    target_bundles_drag_drop:
+      latlng:
+        weight: 1
+        enabled: true
+field_type: entity_reference_revisions
